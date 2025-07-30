@@ -27,8 +27,9 @@ public class ArbolService {
     //Create
     
     public Arbol create(Arbol arbol){
-      arbol = arbolRepository.save(arbol);
+      
         LOGGER.info("Creando un árbol");
+        arbol = arbolRepository.save(arbol);
         return arbol;  
     }
 
