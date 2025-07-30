@@ -19,7 +19,7 @@ import es.cic.curso25.proy009.model.Arbol;
 import es.cic.curso25.proy009.service.ArbolService;
 
 @RestController
-@RequestMapping("/api/capitan")
+@RequestMapping("/api/arbol")
 public class ArbolController {
 
     //Logger
